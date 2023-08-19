@@ -1,0 +1,2 @@
+pamiser #sound
+brightnessctl #bightness
