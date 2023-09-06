@@ -105,7 +105,8 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-      
+      nodejs
+      yarn
     #  thunderbird
     ];
   };
@@ -120,6 +121,12 @@
     gcc
     binutils
     wget
+    brightnessctl
+    vim
+    neovim
+    pulseaudio
+    xclip
+    
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
