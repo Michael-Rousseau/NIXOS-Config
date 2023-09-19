@@ -37,7 +37,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'rhysd/vim-clang-format'
 
     " Use release branch (recommend)
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     call plug#end()
 
@@ -148,7 +147,7 @@ autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | e
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " Toggle NerdTree
-nnoremap <leader>n :NERDTreeToggle<CR>
+nnoremap <leader>n :NERDTree<CR>
 
 "for not reload the configuration each time
 
