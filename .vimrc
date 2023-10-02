@@ -10,11 +10,18 @@ filetype plugin on
 call plug#begin('~/.vim/plugged')
     " Autocomplete
     Plug 'vim-scripts/AutoComplPop'
-
-    "Airline
+    Plug 'svermeulen/vim-easyclip'
+    Plug 'lervag/vimtex'
+    let g:tex_flavor='latex'
+    let g:vimtex_view_method='zathura'
+    let g:vimtex_quickfix_mode=0
+    set conceallevel=1
+    let g:tex_conceal='abdmg'"Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.3' }
+" or                                , { 'branch': '0.1.x' }
     "File System explorer
     Plug 'preservim/nerdtree'
 
@@ -45,12 +52,11 @@ set encoding=utf8
 
 """"""Colorscheme
 
-
 "hi Comment ctermfg=242 guifg=#5a80ad
-"let g:airline_theme='raisen'
-"set termguicolors
-"set background=dark
-""""""""""""""""""""""""""""""
+let g:airline_theme='raisen'
+set termguicolors
+set background=dark
+"""""""""""""""""""""""""""""
 
 set expandtab
 set shiftwidth=4
@@ -80,8 +86,7 @@ set scrolloff=5
 " fix splitting
 set splitbelow splitright
 
-set clipboard+=unnamedplus
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " resize split automatically
 autocmd VimResized * wincmd =
@@ -138,19 +143,27 @@ highlight SpecialKey ctermfg=blue
 "
 " NERDTREE
 "
+" Start NERDTree if a file is specified, move the cursor to its window
+"autocmd StdinReadPre * let s:std_in=1
 
-" Start NERDTree. If a file is specified, move the cursor to its window
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+" Start NERDTree if no files are specified
 
-" Exit Vim if NERDTree is the only window remaining in the only tab
+" Start NERDTree and place the cursor in it if no files are specified
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | wincmd h | endif
+"close all the windows when on nerdtree and :q
+autocmd FileType nerdtree nnoremap <buffer> :qa<CR>
+
+"Exit Vim if NERDTree is the only window remaining in the only tab
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-" Toggle NerdTree
-nnoremap <leader>n :NERDTree<CR>
+
+" Toggle NERDTree with the n key
+nnoremap <silent> n :NERDTree<CR>
+nnoremap <Tab> :terminal bash -c "cd %:p:h && $SHELL"<CR>
 
 "for not reload the configuration each time
 
+inoremap <leader>f :Telescope find_files<CR>
 augroup AutoReloadVimrc
     autocmd!
     autocmd BufWritePost $MYVIMRC source $MYVIMRC
@@ -181,3 +194,32 @@ nnoremap <C-j> :ClangFormat<CR>
 let g:vim_man_cmd = 'man'
 let mapleader = '\'
 
+"VIMTEX
+
+"This is necessary for VimTeX to load properly. The "indent" is optional.
+" Note that most plugin managers will do this automatically.
+filetype plugin indent on
+
+" This enables Vim's and neovim's syntax-related features. Without this, some
+" VimTeX features will not work (see ":help vimtex-requirements" for more
+" info).
+syntax enable
+
+" Viewer options: One may configure the viewer either by specifying a built-in
+" viewer method:
+let g:vimtex_view_method = 'zathura'
+
+" Or with a generic interface:
+let g:vimtex_view_general_viewer = 'okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+
+" VimTeX uses latexmk as the default compiler backend. If you use it, which is
+" strongly recommended, you probably don't need to configure anything. If you
+" want another compiler backend, you can change it as follows. The list of
+" supported backends and further explanation is provided in the documentation,
+" see ":help vimtex-compiler".
+let g:vimtex_compiler_method = 'latexrun'
+
+" Most VimTeX mappings rely on localleader and this can be changed with the
+" following line. The default is usually fine and is the symbol "\".
+let maplocalleader = ","
