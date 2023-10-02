@@ -159,7 +159,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 " Toggle NERDTree with the n key
 nnoremap <silent> n :NERDTree<CR>
-nnoremap <Tab> :terminal bash -c "cd %:p:h && $SHELL"<CR>
+nnoremap <Tab> :term <CR>
 
 "for not reload the configuration each time
 
