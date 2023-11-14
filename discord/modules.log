@@ -1,0 +1,375 @@
+2023-11-11T10:37:57.805Z [Modules] Modules initializing
+2023-11-11T10:37:57.805Z [Modules] Distribution: remote
+2023-11-11T10:37:57.805Z [Modules] Host updates: disabled
+2023-11-11T10:37:57.806Z [Modules] Module updates: enabled
+2023-11-11T10:37:57.806Z [Modules] Module install path: /home/tayron/.config/discord/0.0.31/modules
+2023-11-11T10:37:57.806Z [Modules] Module installed file path: /home/tayron/.config/discord/0.0.31/modules/installed.json
+2023-11-11T10:37:57.806Z [Modules] Module download path: /home/tayron/.config/discord/0.0.31/modules/pending
+2023-11-11T10:37:58.180Z [Modules] Bootstrapping...
+2023-11-11T10:37:58.182Z [Modules] Installing discord_desktop_core@0 from /nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2023-11-11T10:37:58.188Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2023-11-11T10:37:58.190Z [Modules] Installing discord_erlpack@0 from /nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2023-11-11T10:37:58.192Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2023-11-11T10:37:58.192Z [Modules] Installing discord_spellcheck@0 from /nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2023-11-11T10:37:58.194Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2023-11-11T10:37:58.195Z [Modules] Installing discord_utils@0 from /nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_utils.zip
+2023-11-11T10:37:58.198Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_utils.zip'
+2023-11-11T10:37:58.199Z [Modules] Installing discord_voice@0 from /nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_voice.zip
+2023-11-11T10:37:58.201Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/yw0hb53kmf0ln3vq8dj7sh2ahw2abgbn-discord-0.0.31/opt/Discord/resources/bootstrap/discord_voice.zip'
+2023-11-11T10:37:58.202Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-11-11T10:37:58.203Z [Modules] Host is up to date.
+2023-11-11T10:37:58.204Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-11T10:37:58.334Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-11-11T10:37:58.334Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-11-11T10:37:58.334Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-11-11T10:37:58.334Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-11-11T10:37:58.334Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-11-11T10:37:58.335Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-11-11T10:37:58.336Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip
+2023-11-11T10:38:01.205Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 1%
+2023-11-11T10:38:01.468Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 2%
+2023-11-11T10:38:01.471Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 3%
+2023-11-11T10:38:01.510Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 6%
+2023-11-11T10:38:01.512Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 7%
+2023-11-11T10:38:01.820Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 8%
+2023-11-11T10:38:01.830Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 11%
+2023-11-11T10:38:01.860Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 13%
+2023-11-11T10:38:01.863Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 16%
+2023-11-11T10:38:01.866Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 17%
+2023-11-11T10:38:01.870Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 18%
+2023-11-11T10:38:01.876Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 19%
+2023-11-11T10:38:01.986Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 22%
+2023-11-11T10:38:01.988Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 29%
+2023-11-11T10:38:01.989Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 36%
+2023-11-11T10:38:02.006Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 39%
+2023-11-11T10:38:02.007Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 40%
+2023-11-11T10:38:02.020Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 42%
+2023-11-11T10:38:02.061Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 45%
+2023-11-11T10:38:02.071Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 46%
+2023-11-11T10:38:02.078Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 48%
+2023-11-11T10:38:02.241Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 51%
+2023-11-11T10:38:02.242Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 53%
+2023-11-11T10:38:02.274Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 60%
+2023-11-11T10:38:02.275Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 70%
+2023-11-11T10:38:02.288Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 73%
+2023-11-11T10:38:02.294Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 75%
+2023-11-11T10:38:02.304Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 76%
+2023-11-11T10:38:02.307Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 77%
+2023-11-11T10:38:02.310Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 78%
+2023-11-11T10:38:02.320Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 79%
+2023-11-11T10:38:02.325Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 82%
+2023-11-11T10:38:02.330Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 83%
+2023-11-11T10:38:02.336Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 85%
+2023-11-11T10:38:02.342Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 88%
+2023-11-11T10:38:02.418Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 91%
+2023-11-11T10:38:02.419Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 96%
+2023-11-11T10:38:02.421Z [Modules] Streaming discord_desktop_core@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip: 100%
+2023-11-11T10:38:02.424Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-11-11T10:38:02.425Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip
+2023-11-11T10:38:03.068Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 3%
+2023-11-11T10:38:03.078Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 5%
+2023-11-11T10:38:03.090Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 6%
+2023-11-11T10:38:03.094Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 7%
+2023-11-11T10:38:03.100Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 8%
+2023-11-11T10:38:03.104Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 10%
+2023-11-11T10:38:03.107Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 11%
+2023-11-11T10:38:03.110Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 12%
+2023-11-11T10:38:03.119Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 16%
+2023-11-11T10:38:03.120Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 21%
+2023-11-11T10:38:03.123Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 22%
+2023-11-11T10:38:03.143Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 25%
+2023-11-11T10:38:03.145Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 27%
+2023-11-11T10:38:03.160Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 30%
+2023-11-11T10:38:03.162Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 32%
+2023-11-11T10:38:03.194Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 35%
+2023-11-11T10:38:03.196Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 36%
+2023-11-11T10:38:03.232Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 40%
+2023-11-11T10:38:03.233Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 41%
+2023-11-11T10:38:03.261Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 43%
+2023-11-11T10:38:03.263Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 46%
+2023-11-11T10:38:03.390Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 50%
+2023-11-11T10:38:03.392Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 54%
+2023-11-11T10:38:03.398Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 58%
+2023-11-11T10:38:03.399Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 65%
+2023-11-11T10:38:03.455Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 69%
+2023-11-11T10:38:03.457Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 86%
+2023-11-11T10:38:03.462Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 88%
+2023-11-11T10:38:03.475Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 92%
+2023-11-11T10:38:03.476Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 93%
+2023-11-11T10:38:03.482Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 94%
+2023-11-11T10:38:03.485Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 95%
+2023-11-11T10:38:03.495Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 97%
+2023-11-11T10:38:03.508Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 99%
+2023-11-11T10:38:03.510Z [Modules] Streaming discord_erlpack@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip: 100%
+2023-11-11T10:38:03.514Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-11-11T10:38:03.514Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip
+2023-11-11T10:38:03.790Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 1%
+2023-11-11T10:38:03.834Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 2%
+2023-11-11T10:38:03.845Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 3%
+2023-11-11T10:38:03.857Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 4%
+2023-11-11T10:38:03.884Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 5%
+2023-11-11T10:38:03.900Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 6%
+2023-11-11T10:38:03.925Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 7%
+2023-11-11T10:38:03.942Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 8%
+2023-11-11T10:38:03.949Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 9%
+2023-11-11T10:38:03.965Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 10%
+2023-11-11T10:38:03.990Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 11%
+2023-11-11T10:38:04.107Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 12%
+2023-11-11T10:38:04.109Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 15%
+2023-11-11T10:38:04.134Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 16%
+2023-11-11T10:38:04.150Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 17%
+2023-11-11T10:38:04.164Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 18%
+2023-11-11T10:38:04.183Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 19%
+2023-11-11T10:38:04.247Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 20%
+2023-11-11T10:38:04.257Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 21%
+2023-11-11T10:38:04.277Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 22%
+2023-11-11T10:38:04.314Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 23%
+2023-11-11T10:38:04.350Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 24%
+2023-11-11T10:38:04.360Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 25%
+2023-11-11T10:38:04.391Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 26%
+2023-11-11T10:38:04.411Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 27%
+2023-11-11T10:38:04.432Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 28%
+2023-11-11T10:38:04.453Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 29%
+2023-11-11T10:38:04.468Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 30%
+2023-11-11T10:38:04.481Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 31%
+2023-11-11T10:38:04.504Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 32%
+2023-11-11T10:38:04.532Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 33%
+2023-11-11T10:38:04.574Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 34%
+2023-11-11T10:38:04.592Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 35%
+2023-11-11T10:38:04.618Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 36%
+2023-11-11T10:38:04.695Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 37%
+2023-11-11T10:38:04.697Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 39%
+2023-11-11T10:38:04.718Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 40%
+2023-11-11T10:38:04.729Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 41%
+2023-11-11T10:38:04.759Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 42%
+2023-11-11T10:38:04.792Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 43%
+2023-11-11T10:38:04.798Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 44%
+2023-11-11T10:38:04.830Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 45%
+2023-11-11T10:38:04.864Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 46%
+2023-11-11T10:38:04.892Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 47%
+2023-11-11T10:38:04.906Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 48%
+2023-11-11T10:38:04.946Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 49%
+2023-11-11T10:38:04.972Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 50%
+2023-11-11T10:38:05.006Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 51%
+2023-11-11T10:38:05.030Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 52%
+2023-11-11T10:38:05.072Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 53%
+2023-11-11T10:38:05.076Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 54%
+2023-11-11T10:38:05.089Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 55%
+2023-11-11T10:38:05.116Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 56%
+2023-11-11T10:38:05.138Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 57%
+2023-11-11T10:38:05.151Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 58%
+2023-11-11T10:38:05.167Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 59%
+2023-11-11T10:38:05.189Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 60%
+2023-11-11T10:38:05.207Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 61%
+2023-11-11T10:38:05.234Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 62%
+2023-11-11T10:38:05.325Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 63%
+2023-11-11T10:38:05.326Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 65%
+2023-11-11T10:38:05.328Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 66%
+2023-11-11T10:38:05.405Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 67%
+2023-11-11T10:38:05.406Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 70%
+2023-11-11T10:38:05.440Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 71%
+2023-11-11T10:38:05.561Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 72%
+2023-11-11T10:38:05.574Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 73%
+2023-11-11T10:38:05.576Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 75%
+2023-11-11T10:38:05.592Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 76%
+2023-11-11T10:38:05.610Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 77%
+2023-11-11T10:38:05.628Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 78%
+2023-11-11T10:38:05.755Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 79%
+2023-11-11T10:38:05.756Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 80%
+2023-11-11T10:38:05.778Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 81%
+2023-11-11T10:38:05.807Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 82%
+2023-11-11T10:38:05.895Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 83%
+2023-11-11T10:38:05.927Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 84%
+2023-11-11T10:38:05.929Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 85%
+2023-11-11T10:38:05.990Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 86%
+2023-11-11T10:38:05.993Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 87%
+2023-11-11T10:38:06.037Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 88%
+2023-11-11T10:38:06.060Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 89%
+2023-11-11T10:38:06.063Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 92%
+2023-11-11T10:38:06.087Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 93%
+2023-11-11T10:38:06.116Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 94%
+2023-11-11T10:38:06.129Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 95%
+2023-11-11T10:38:06.169Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 96%
+2023-11-11T10:38:06.188Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 97%
+2023-11-11T10:38:06.206Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 98%
+2023-11-11T10:38:06.232Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 99%
+2023-11-11T10:38:06.245Z [Modules] Streaming discord_spellcheck@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip: 100%
+2023-11-11T10:38:06.247Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-11-11T10:38:06.248Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip
+2023-11-11T10:38:06.507Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 1%
+2023-11-11T10:38:06.517Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 2%
+2023-11-11T10:38:06.520Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 3%
+2023-11-11T10:38:06.535Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 4%
+2023-11-11T10:38:06.550Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 6%
+2023-11-11T10:38:06.571Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 7%
+2023-11-11T10:38:06.593Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 9%
+2023-11-11T10:38:06.604Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 10%
+2023-11-11T10:38:06.610Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 11%
+2023-11-11T10:38:06.626Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 14%
+2023-11-11T10:38:06.654Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 15%
+2023-11-11T10:38:06.668Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 16%
+2023-11-11T10:38:06.674Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 18%
+2023-11-11T10:38:06.686Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 19%
+2023-11-11T10:38:06.715Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 20%
+2023-11-11T10:38:06.716Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 21%
+2023-11-11T10:38:06.735Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 23%
+2023-11-11T10:38:06.889Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 25%
+2023-11-11T10:38:06.891Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 30%
+2023-11-11T10:38:06.934Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 32%
+2023-11-11T10:38:06.936Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 40%
+2023-11-11T10:38:06.950Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 42%
+2023-11-11T10:38:06.954Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 43%
+2023-11-11T10:38:06.961Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 44%
+2023-11-11T10:38:06.990Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 46%
+2023-11-11T10:38:07.006Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 48%
+2023-11-11T10:38:07.007Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 49%
+2023-11-11T10:38:07.020Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 50%
+2023-11-11T10:38:07.023Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 51%
+2023-11-11T10:38:07.026Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 52%
+2023-11-11T10:38:07.046Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 53%
+2023-11-11T10:38:07.130Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 55%
+2023-11-11T10:38:07.132Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 57%
+2023-11-11T10:38:07.133Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 63%
+2023-11-11T10:38:07.146Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 64%
+2023-11-11T10:38:07.161Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 66%
+2023-11-11T10:38:07.190Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 67%
+2023-11-11T10:38:07.209Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 69%
+2023-11-11T10:38:07.223Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 70%
+2023-11-11T10:38:07.226Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 71%
+2023-11-11T10:38:07.236Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 72%
+2023-11-11T10:38:07.251Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 74%
+2023-11-11T10:38:07.255Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 75%
+2023-11-11T10:38:07.259Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 76%
+2023-11-11T10:38:07.285Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 77%
+2023-11-11T10:38:07.287Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 78%
+2023-11-11T10:38:07.307Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 79%
+2023-11-11T10:38:07.310Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 81%
+2023-11-11T10:38:07.323Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 83%
+2023-11-11T10:38:07.326Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 84%
+2023-11-11T10:38:07.355Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 86%
+2023-11-11T10:38:07.357Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 87%
+2023-11-11T10:38:07.388Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 89%
+2023-11-11T10:38:07.401Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 90%
+2023-11-11T10:38:07.417Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 92%
+2023-11-11T10:38:07.418Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 93%
+2023-11-11T10:38:07.424Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 94%
+2023-11-11T10:38:07.439Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 96%
+2023-11-11T10:38:07.441Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 97%
+2023-11-11T10:38:07.461Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 98%
+2023-11-11T10:38:07.464Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 99%
+2023-11-11T10:38:07.466Z [Modules] Streaming discord_utils@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip: 100%
+2023-11-11T10:38:07.468Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-11-11T10:38:07.469Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip
+2023-11-11T10:38:07.781Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 1%
+2023-11-11T10:38:07.830Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 2%
+2023-11-11T10:38:07.856Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 3%
+2023-11-11T10:38:07.909Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 4%
+2023-11-11T10:38:07.978Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 5%
+2023-11-11T10:38:07.980Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 6%
+2023-11-11T10:38:08.028Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 7%
+2023-11-11T10:38:08.073Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 8%
+2023-11-11T10:38:08.103Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 9%
+2023-11-11T10:38:08.213Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 10%
+2023-11-11T10:38:08.251Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 11%
+2023-11-11T10:38:08.290Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 12%
+2023-11-11T10:38:08.387Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 13%
+2023-11-11T10:38:08.389Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 14%
+2023-11-11T10:38:08.413Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 15%
+2023-11-11T10:38:08.474Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 16%
+2023-11-11T10:38:08.477Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 17%
+2023-11-11T10:38:08.545Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 18%
+2023-11-11T10:38:08.867Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 19%
+2023-11-11T10:38:08.874Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 20%
+2023-11-11T10:38:08.886Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 21%
+2023-11-11T10:38:08.950Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 22%
+2023-11-11T10:38:08.993Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 23%
+2023-11-11T10:38:09.036Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 24%
+2023-11-11T10:38:09.079Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 25%
+2023-11-11T10:38:09.112Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 26%
+2023-11-11T10:38:09.196Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 27%
+2023-11-11T10:38:09.197Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 28%
+2023-11-11T10:38:09.251Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 29%
+2023-11-11T10:38:09.278Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 30%
+2023-11-11T10:38:09.307Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 31%
+2023-11-11T10:38:09.403Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 32%
+2023-11-11T10:38:09.405Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 33%
+2023-11-11T10:38:09.476Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 34%
+2023-11-11T10:38:09.505Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 35%
+2023-11-11T10:38:09.571Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 36%
+2023-11-11T10:38:09.575Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 37%
+2023-11-11T10:38:09.620Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 38%
+2023-11-11T10:38:09.736Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 39%
+2023-11-11T10:38:09.872Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 40%
+2023-11-11T10:38:09.921Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 41%
+2023-11-11T10:38:10.001Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 42%
+2023-11-11T10:38:10.002Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 43%
+2023-11-11T10:38:10.074Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 44%
+2023-11-11T10:38:10.130Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 45%
+2023-11-11T10:38:10.184Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 46%
+2023-11-11T10:38:10.205Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 47%
+2023-11-11T10:38:10.291Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 48%
+2023-11-11T10:38:10.327Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 49%
+2023-11-11T10:38:10.408Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 50%
+2023-11-11T10:38:10.455Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 51%
+2023-11-11T10:38:10.589Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 52%
+2023-11-11T10:38:10.669Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 53%
+2023-11-11T10:38:10.887Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 54%
+2023-11-11T10:38:10.889Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 56%
+2023-11-11T10:38:10.920Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 57%
+2023-11-11T10:38:10.996Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 58%
+2023-11-11T10:38:11.087Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 59%
+2023-11-11T10:38:11.117Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 60%
+2023-11-11T10:38:11.217Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 61%
+2023-11-11T10:38:11.237Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 62%
+2023-11-11T10:38:11.306Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 63%
+2023-11-11T10:38:11.307Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 64%
+2023-11-11T10:38:11.353Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 65%
+2023-11-11T10:38:11.420Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 66%
+2023-11-11T10:38:11.553Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 67%
+2023-11-11T10:38:11.554Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 68%
+2023-11-11T10:38:11.709Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 69%
+2023-11-11T10:38:11.836Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 70%
+2023-11-11T10:38:11.910Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 71%
+2023-11-11T10:38:11.960Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 72%
+2023-11-11T10:38:12.030Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 73%
+2023-11-11T10:38:12.114Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 74%
+2023-11-11T10:38:12.200Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 75%
+2023-11-11T10:38:12.235Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 76%
+2023-11-11T10:38:12.383Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 77%
+2023-11-11T10:38:12.494Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 78%
+2023-11-11T10:38:12.497Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 79%
+2023-11-11T10:38:12.562Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 80%
+2023-11-11T10:38:12.564Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 81%
+2023-11-11T10:38:12.638Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 82%
+2023-11-11T10:38:12.692Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 83%
+2023-11-11T10:38:12.812Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 84%
+2023-11-11T10:38:12.813Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 85%
+2023-11-11T10:38:12.848Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 86%
+2023-11-11T10:38:12.897Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 87%
+2023-11-11T10:38:12.951Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 88%
+2023-11-11T10:38:13.053Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 89%
+2023-11-11T10:38:13.099Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 90%
+2023-11-11T10:38:13.148Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 91%
+2023-11-11T10:38:13.196Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 92%
+2023-11-11T10:38:13.294Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 93%
+2023-11-11T10:38:13.361Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 94%
+2023-11-11T10:38:13.428Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 95%
+2023-11-11T10:38:13.516Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 96%
+2023-11-11T10:38:13.596Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 97%
+2023-11-11T10:38:13.718Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 98%
+2023-11-11T10:38:13.795Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 99%
+2023-11-11T10:38:13.840Z [Modules] Streaming discord_voice@1 to /home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip: 100%
+2023-11-11T10:38:13.842Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-11-11T10:38:13.843Z [Modules] Installing updates...
+2023-11-11T10:38:13.843Z [Modules] Installing discord_desktop_core@1 from /home/tayron/.config/discord/0.0.31/modules/pending/discord_desktop_core-1.zip
+2023-11-11T10:38:13.971Z [Modules] Installing discord_erlpack@1 from /home/tayron/.config/discord/0.0.31/modules/pending/discord_erlpack-1.zip
+2023-11-11T10:38:14.068Z [Modules] Installing discord_spellcheck@1 from /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip
+2023-11-12T19:12:34.223Z [Modules] Modules initializing
+2023-11-12T19:12:34.223Z [Modules] Distribution: remote
+2023-11-12T19:12:34.223Z [Modules] Host updates: disabled
+2023-11-12T19:12:34.223Z [Modules] Module updates: enabled
+2023-11-12T19:12:34.224Z [Modules] Module install path: /home/tayron/.config/discord/0.0.31/modules
+2023-11-12T19:12:34.224Z [Modules] Module installed file path: /home/tayron/.config/discord/0.0.31/modules/installed.json
+2023-11-12T19:12:34.224Z [Modules] Module download path: /home/tayron/.config/discord/0.0.31/modules/pending
+2023-11-12T19:12:34.583Z [Modules] Installing updates...
+2023-11-12T19:12:34.585Z [Modules] Installing discord_spellcheck@1 from /home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip

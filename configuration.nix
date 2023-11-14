@@ -1,7 +1,6 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-
 { config, pkgs, ... }:
 
 {
@@ -25,6 +24,7 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  nix.settings.experimental-features = ["nix-command"];
 
   # Set your time zone.
   time.timeZone = "Europe/Paris";
@@ -128,8 +128,7 @@
     git
     alacritty
     gnumake
-    discord
-    pkg-config
+    pkgconfig
     gdb
     openssh
     nettools
@@ -139,9 +138,8 @@
     unzip
     curl
     zathura
-    jetbrains.pycharm-community
+    
   ];
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;

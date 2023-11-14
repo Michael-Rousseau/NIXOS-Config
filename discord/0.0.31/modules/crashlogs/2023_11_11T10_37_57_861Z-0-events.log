@@ -1,0 +1,18 @@
+2023-11-11T10:37:57.871Z 0: 
+
+----------------------------------------------
+2023-11-11T10:37:57.900Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/tayron/.config/discord/0.0.31/modules
+2023-11-11T10:37:57.907Z 2: ✅ webContents.created web1 ""
+2023-11-11T10:37:57.919Z 3: ✅ window.created win1 "discord"
+2023-11-11T10:37:58.315Z 4: ✅ webContents.did-finish-load web1
+2023-11-11T10:49:50.041Z 5: window.close win1
+2023-11-11T10:49:50.054Z 6: webContents.destroyed web1
+2023-11-12T19:12:34.272Z 0: 
+
+----------------------------------------------
+2023-11-12T19:12:34.312Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.31"}, modulepath: /home/tayron/.config/discord/0.0.31/modules
+2023-11-12T19:12:34.319Z 2: ✅ webContents.created web1 ""
+2023-11-12T19:12:34.324Z 3: ✅ window.created win1 "discord"
+2023-11-12T19:12:34.750Z 4: ✅ webContents.did-finish-load web1
+2023-11-12T19:40:47.669Z 5: window.close win1
+2023-11-12T19:40:47.699Z 6: webContents.destroyed web1

@@ -1,0 +1,23 @@
+{
+  "discord_desktop_core": {
+    "installedVersion": 1
+  },
+  "discord_erlpack": {
+    "installedVersion": 1
+  },
+  "discord_spellcheck": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/tayron/.config/discord/0.0.31/modules/pending/discord_spellcheck-1.zip"
+  },
+  "discord_utils": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/tayron/.config/discord/0.0.31/modules/pending/discord_utils-1.zip"
+  },
+  "discord_voice": {
+    "installedVersion": 0,
+    "updateVersion": 1,
+    "updateZipfile": "/home/tayron/.config/discord/0.0.31/modules/pending/discord_voice-1.zip"
+  }
+}
